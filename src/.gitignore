@@ -1,0 +1,19 @@
+# Zapier build and dependency output
+node_modules/
+build/
+dist/
+coverage/
+.nyc_output/
+*.tgz
+
+# Local tooling and logs
+*.log
+npm-debug.log*
+.npm/
+.eslintcache
+
+# Credentials and local Zapier project links
+.env
+.env.*
+.environment
+.zapierapprc
